@@ -35,6 +35,16 @@ unsigned int subaru_checksum(unsigned int address, uint64_t d, int l) {
   return s & 0xFF;
 }
 
+unsigned int subaru_legacy_checksum(unsigned int address, uint64_t d, int l) {
+  //TODO
+  /*
+  def subaru_preglobal_checksum(packer, values, addr):
+    dat = packer.make_can_msg(addr, 0, values)[2]
+    return (sum(dat[:7])) % 256
+  */
+  return false;
+}
+
 unsigned int chrysler_checksum(unsigned int address, uint64_t d, int l) {
   /* This function does not want the checksum byte in the input data.
   jeep chrysler canbus checksum from http://illmatics.com/Remote%20Car%20Hacking.pdf */

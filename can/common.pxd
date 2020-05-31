@@ -20,6 +20,7 @@ cdef extern from "common_dbc.h":
     VOLKSWAGEN_CHECKSUM,
     VOLKSWAGEN_COUNTER,
     SUBARU_CHECKSUM,
+    SUBARU_LEGACY_CHECKSUM,
     CHRYSLER_CHECKSUM
 
   cdef struct Signal:
