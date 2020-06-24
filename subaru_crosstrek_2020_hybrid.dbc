@@ -281,8 +281,8 @@ BO_ 295 Transmission: 8 XXX
 
 BO_ 175 NEW_MSG_1: 8 XXX
 
-BO_ 360 Throttle: 8 XXX
- SG_ Throttle_Pedal : 32|8@1+ (1,0) [0|1] "" XXX
+BO_ 360 Throttle_Hybrid: 8 XXX
+ SG_ Throttle_Pedal : 32|8@1+ (1,0) [0|255] "" XXX
 
 
 
