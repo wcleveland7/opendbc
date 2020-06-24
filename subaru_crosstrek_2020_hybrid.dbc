@@ -284,6 +284,35 @@ BO_ 175 NEW_MSG_1: 8 XXX
 BO_ 360 Throttle_Hybrid: 8 XXX
  SG_ Throttle_Pedal : 32|8@1+ (1,0) [0|255] "" XXX
 
+BO_ 39 ES_NEW_MSG_27: 8 XXX
+ SG_ Cruise_Activated : 35|1@0+ (1,0) [0|1] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|1] "" XXX
+ SG_ CHECKSUM : 0|8@1+ (1,0) [0|1] "" XXX
+
+BO_ 289 ES_NEW_MSG_121: 8 XXX
+ SG_ NEW_SIGNAL_1 : 16|1@1+ (1,0) [0|1] "" XXX
+ SG_ Reverse_Gear : 17|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 18|1@0+ (1,0) [0|1] "" XXX
+ SG_ NotReadyStartup : 19|1@0+ (1,0) [0|1] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|1] "" XXX
+ SG_ CHECKSUM : 0|8@1+ (1,0) [0|1] "" XXX
+
+BO_ 549 ES_NEW_MSG_225: 8 XXX
+
+BO_ 551 ES_NEW_MSG_227: 8 XXX
+
+BO_ 554 ES_NEW_MSG_22a: 8 XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|1] "" XXX
+ SG_ CHECKSUM : 0|8@1+ (1,0) [0|1] "" XXX
+ SG_ Cruise_Fault : 12|1@0+ (1,0) [0|1] "" XXX
+ SG_ State : 13|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_1 : 40|16@1+ (1,0) [0|1] "" XXX
+
+BO_ 805 ES_NEW_MSG_325: 8 XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|1] "" XXX
+ SG_ CHECKSUM : 0|8@1+ (1,0) [0|1] "" XXX
+ SG_ NotReadyStartup : 16|1@1+ (1,0) [0|1] "" XXX
+
 
 
 
