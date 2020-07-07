@@ -121,7 +121,7 @@ BO_ 338 Stalk: 8 XXX
 BO_ 352 ES_Brake: 8 XXX
  SG_ Brake_Pressure : 0|16@1+ (1,0) [0|255] "" XXX
  SG_ Brake_Light : 20|1@1+ (1,0) [0|1] "" XXX
- SG_ ES_Error : 21|1@1+ (1,0) [0|1] "" XXX
+ SG_ Cruise_Fault : 21|1@1+ (1,0) [0|1] "" XXX
  SG_ Brake_On : 22|1@1+ (1,0) [0|1] "" XXX
  SG_ Cruise_Activated : 23|1@1+ (1,0) [0|1] "" XXX
  SG_ Counter : 48|3@1+ (1,0) [0|7] "" XXX
