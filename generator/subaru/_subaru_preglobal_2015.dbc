@@ -127,8 +127,8 @@ BO_ 352 ES_Brake: 8 XXX
  SG_ Counter : 48|3@1+ (1,0) [0|7] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|255] "" XXX
 
-BO_ 353 ES_CruiseThrottle: 8 XXX
- SG_ Throttle_Cruise : 0|12@1+ (1,0) [0|4095] "" XXX
+BO_ 353 ES_Distance: 8 XXX
+ SG_ Cruise_Throttle : 0|12@1+ (1,0) [0|4095] "" XXX
  SG_ Signal1 : 12|4@1+ (1,0) [0|15] "" XXX
  SG_ Cruise_Activated : 16|1@1+ (1,0) [0|1] "" XXX
  SG_ Signal2 : 17|3@1+ (1,0) [0|7] "" XXX
@@ -136,10 +136,10 @@ BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ DistanceSwap : 21|1@1+ (1,0) [0|1] "" XXX
  SG_ Standstill : 22|1@1+ (1,0) [0|1] "" XXX
  SG_ Signal3 : 23|1@1+ (1,0) [0|1] "" XXX
- SG_ CloseDistance : 24|8@1+ (0.0196,0) [0|255] "m" XXX
+ SG_ Close_Distance : 24|8@1+ (0.0196,0) [0|255] "m" XXX
  SG_ Signal4 : 32|9@1+ (1,0) [0|255] "" XXX
  SG_ Standstill_2 : 41|1@1+ (1,0) [0|1] "" XXX
- SG_ ES_Error : 42|1@1+ (1,0) [0|1] "" XXX
+ SG_ Cruise_Fault : 42|1@1+ (1,0) [0|1] "" XXX
  SG_ Signal5 : 43|1@1+ (1,0) [0|1] "" XXX
  SG_ Counter : 44|3@1+ (1,0) [0|7] "" XXX
  SG_ Signal6 : 47|1@1+ (1,0) [0|1] "" XXX
@@ -160,10 +160,10 @@ BO_ 356 ES_LKAS: 8 XXX
  SG_ LKAS_Active : 24|1@1+ (1,0) [0|1] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|255] "" XXX
 
-BO_ 359 ES_LDW: 8 XXX
+BO_ 359 ES_LKAS_State: 8 XXX
  SG_ All_depart_2015 : 0|1@1+ (1,0) [0|1] "" XXX
- SG_ Right_Line_2017 : 24|1@1+ (1,0) [0|1] "" XXX
- SG_ Left_Line_2017 : 25|1@1+ (1,0) [0|1] "" XXX
+ SG_ LKAS_Right_Line_Visible : 24|1@1+ (1,0) [0|1] "" XXX
+ SG_ LKAS_Left_Line_Visible : 25|1@1+ (1,0) [0|1] "" XXX
  SG_ Sig1All_Depart : 28|1@1+ (1,0) [0|1] "" XXX
  SG_ Sig2All_Depart : 31|1@1+ (1,0) [0|1] "" XXX
  SG_ LKAS_Inactive_2017 : 36|1@1+ (1,0) [0|1] "" XXX
