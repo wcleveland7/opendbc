@@ -27,4 +27,4 @@ BO_ 881 Steering_Torque: 8 XXX
 
 CM_ SG_ 358 Disengage_Alert "seatbelt and steep hill disengage";
 CM_ SG_ 358 Cruise_Fault "No engagement until restart";
-CM_ SG_ 358 Lead_Car "front car detected";
+CM_ SG_ 358 Car_Follow "front car detected";
