@@ -137,7 +137,7 @@ BO_ 353 ES_Distance: 8 XXX
  SG_ Cruise_Activated : 16|1@1+ (1,0) [0|1] "" XXX
  SG_ Signal2 : 17|3@1+ (1,0) [0|7] "" XXX
  SG_ Brake_On : 20|1@1+ (1,0) [0|1] "" XXX
- SG_ DistanceSwap : 21|1@1+ (1,0) [0|1] "" XXX
+ SG_ Distance_Swap : 21|1@1+ (1,0) [0|1] "" XXX
  SG_ Standstill : 22|1@1+ (1,0) [0|1] "" XXX
  SG_ Signal3 : 23|1@1+ (1,0) [0|1] "" XXX
  SG_ Close_Distance : 24|8@1+ (0.0196,0) [0|255] "m" XXX
