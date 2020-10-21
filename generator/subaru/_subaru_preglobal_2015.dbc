@@ -209,6 +209,9 @@ BO_ 864 Engine_Temp: 8 XXX
 
 BO_ 866 Fuel: 8 XXX
 
+BO_ 977 Dash_State2: 8 XXX
+  SG_ Units : 15|1@1+ (1,0) [0|1] "" XXX
+
 BO_ 1745 Dash_State: 8 XXX
  SG_ Units : 15|1@1+ (1,0) [0|1] "" XXX
 
